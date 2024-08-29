@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import Welcome from "./Welcome";
 import Card from "./Card";
+import RegistrationWelcome from "./RegistrationWelcome";
 
 type Props = {
     children: JSX.Element,

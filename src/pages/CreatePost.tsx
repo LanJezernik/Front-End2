@@ -53,7 +53,7 @@ const CreatePost = () => {
 
     return (
         <>
-            <div className="mjau">
+            <div className="loginOkno">
             <h2>{error}</h2>
             <form onSubmit={submit} className="form-signin w-100 m-auto">
                 <div className="form-floating">

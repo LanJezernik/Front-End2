@@ -10,14 +10,14 @@ const styleTextArea = {
 
 
 const EditPost = () => {
-   
+
     const[postData,setPosts] = useState([]);
     const[error, setError] = useState('');
     const[title, setTitle] = useState('');
     const[content, setContent] = useState('');
     const[redirect, setRedirect] = useState(false);
     const { id } = useParams();
-    
+
     const location = useLocation()
     //const { title, vsebina } = location.state as LocationState
     const navigate = useNavigate()
@@ -58,13 +58,13 @@ const EditPost = () => {
 
     return (
         <>
-            <div className="mjau">
+            <div className="loginOkno">
             <h2>{error}</h2>
             <form onSubmit={submit} className="form-signin w-100 m-auto">
                 <div className="form-floating">
                     <input type="text"
                            className="form-control"
-                           id="floatingInput" 
+                           id="floatingInput"
                            placeholder = "naslovc"/*{setPosts} {loadPosts}*/
                            onChange={(e) => setTitle(e.target.value)}/>
                     <label htmlFor="floatingInput">Naslov</label>

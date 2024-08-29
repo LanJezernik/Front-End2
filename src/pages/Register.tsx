@@ -48,7 +48,7 @@ const Register = () => {
 
     return (
         <>
-            <div className="mjau">
+            <div className="loginOkno">
             <h2>{errorText}</h2>
             <form onSubmit={submit} className="form-signin w-100 m-auto" id="forma">
                 <div className="form-floating">

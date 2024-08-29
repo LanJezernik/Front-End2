@@ -31,7 +31,7 @@ const Cards = () => {
   }
 
   return (
-        <h1>Ni objav</h1>
+        <h2>Vpisan ni noben trening</h2>
   );
 
 

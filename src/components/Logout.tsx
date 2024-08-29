@@ -9,7 +9,7 @@ const Logout = () => {
         try {
             const res = await axios.post('http://localhost:8080/auth/logout', {}, { withCredentials: true });
             if (res.status === 200) {
-                
+
             }
         } catch (error) {
             console.error('Logout error:', error);
